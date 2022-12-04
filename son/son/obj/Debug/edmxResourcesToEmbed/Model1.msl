@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="arabalar_vtModelStoreContainer" CdmEntityContainer="arabalar_vtEntities">
+    <EntitySetMapping Name="urunler">
+      <EntityTypeMapping TypeName="arabalar_vtModel.urunler">
+        <MappingFragment StoreEntitySet="urunler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+          <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+          <ScalarProperty Name="CAPACITY" ColumnName="CAPACITY" />
+          <ScalarProperty Name="PLATE" ColumnName="PLATE" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+          <ScalarProperty Name="MODEL_YEAR" ColumnName="MODEL YEAR" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
